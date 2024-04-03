@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+
+.card-body img {
+    min-width: 50% !important;
+    min-height: 200px !important;
+}
+
+.icon {
+    width: 30px;
+    padding-top: 0.7rem;
+}
+
+
+
+
+/* Light - mode style */
+
+
+/* Dark - mode style */
+
+
+.dark-theme {
+    --primary-color: #000106;
+    --secondry-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondry-color);
+}
+nav{
+    background-color: var(--primary-color)!important;
+    color: var(--secondry-color)!important;
+}
